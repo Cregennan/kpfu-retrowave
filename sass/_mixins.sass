@@ -1,0 +1,11 @@
+@mixin block-background($image, $darken-value, $blur: 2px)
+    .back
+        z-index: 5
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        background: linear-gradient(rgba(0, 0, 0, $main-back-darken-value), rgba(0, 0, 0, $darken-value)), url($image) no-repeat center center
+        background-size: cover
+        filter: blur($blur)
