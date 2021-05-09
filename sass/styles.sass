@@ -2,22 +2,76 @@
 @import '_mixins.sass'
 @import '_preloader.sass'
     
-$main-font: 'Source Sans Pro'
+$main-font: 'Source Sans Pro', Helvetica, Arial, sans-serif
 $main-back-darken-value: 0.8
+$body-color: #080216
 
+    
 html
     overflow-x: hidden
 html, body
     width: 100%
     height: 100%
 body
-    background: #080216
+    background: $body-color
     margin: 0
+    box-sizing: border-box
 
 
-    
+/* width */
+::-webkit-scrollbar 
+  width: 10px
 
+
+/* Track */
+::-webkit-scrollbar-track 
+  background: lighten($body-color,10%)
+  
+
+
+/* Handle */
+::-webkit-scrollbar-thumb 
+  background: lighten($body-color,25%)
+  transition: .5s
+
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover 
+  background: lighten($body-color,20%)
+  transition: .5s
+
+
+#audio-suggestion
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/img/suggest.gif') no-repeat center center
+    background-size: cover
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    z-index: 9999
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+    display: none
+    @include retro-text
+    h1, h2, p
+        margin: 0
+    h1
+        margin-bottom: .4rem
+        font-size: 3rem
+    h2
+        font-size: 2rem
+        margin-bottom: 1rem
+    .buttons
+        margin-top: 80px
+         
+section 
+    font-family: $main-font
 #landing
+    //@media screen and ( max-width: 1200px )
+        //display: none
     h1, h2
         z-index: 10
         margin: 0
@@ -39,14 +93,28 @@ body
     @import '_retro_font.sass'
     @include block-background($image: '/img/retrowave.jpg', $darken-value: $main-back-darken-value)
 
+
 #introduce
     position: relative
-    padding-top: 30px
-    padding-bottom: 30px
-    display: flex
-    justify-content: center
-    align-items: center
+    @include block-definition 
+    @include retro-text
     @include block-background($image: '/img/sw-1.jpg', $darken-value: 0.7, $blur: 0px)
+    
+#video
+    background: rgba(0,0,0,0.5)
+    position: relative
+    @include block-definition 
+    @include retro-text
+    @include block-video
+    @include section-cards
+    p
+        font-size: 1.1rem
+
+    
+    
+        
+
+    
 
     
     
