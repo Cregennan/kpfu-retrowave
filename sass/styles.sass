@@ -42,7 +42,7 @@ body
 
 
 #audio-suggestion
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/img/suggest.gif') no-repeat center center
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./img/suggest.gif') no-repeat center center
     background-size: cover
     position: absolute
     top: 0
@@ -91,14 +91,14 @@ section
         font-size: 2rem
         
     @import '_retro_font.sass'
-    @include block-background($image: '/img/retrowave.jpg', $darken-value: $main-back-darken-value)
+    @include block-background($image: './img/retrowave.jpg', $darken-value: $main-back-darken-value)
 
 
 #introduce
     position: relative
     @include block-definition 
     @include retro-text
-    @include block-background($image: '/img/sw-1.jpg', $darken-value: 0.7, $blur: 0px)
+    @include block-background($image: './img/sw-1.jpg', $darken-value: 0.7, $blur: 0px)
     
 #video
     background: rgba(0,0,0,0.5)
