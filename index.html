@@ -5,12 +5,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#222244">
     <title>Takhir</title>
+
 </head>
 
 <body>
+    <div class="walking-icons">
+        <img src="./img/walkers/boombox.png" alt="" class="walking-icon" id="walker-1" data-rellax-speed="-5">
+        <!--<img src="" alt="" class="walking-icon">
+        <img src="" alt="" class="walking-icon">-->
+    </div>
+    <nav id="main-nav" class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Container</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample07">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown07">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-md-0">
+                    <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                </form>
+            </div>
+        </div>
+    </nav>
     <div id="preloader">
         <div class="strings">
             <div class="string string--1"></div>
@@ -35,7 +81,6 @@
             </button>
         </div>
     </div>
-
     <section id="landing">
         <div class="back"></div>
         <h1>
@@ -52,36 +97,67 @@
         <p>Как говорил Дмитрий Анатольевич Медведев: "Никто никогда не вернется в 2007 год". Значит, в 80-тые мы не вернемся тем более. Сайт наполнен элементами Synthwave, чтобы мы могли ощутить себя подростками в 80 с ее неоновой атмосферой и культурой
             VHS </p>
     </section>
+    <section id="myself">
+        <div class="back"></div>
+        <img src="./img/retro-29.jpg" alt="">
+        <h3>Обо мне</h3>
+        <h4>Почему я пиздатый?</h4>
+        <p>Вопрос кажется на самом деле очень тупым, почему я пиздатый это очевидно</p>
+
+    </section>
     <section id="video">
         <div class="back">
             <video src="./img/retro-back.mp4" autoplay muted loop></video>
         </div>
         <h3>Мои любимые ретро фильмы</h3>
         <h4>Шедевры своего времени</h4>
-        <div class="cards">
-            <div class="card">
+        <div class="photo-cards">
+            <a class="photo-card" href="https://www.imdb.com/title/tt0088763/">
                 <img src="./img/movies/back-to-the-future.jpg" alt="Назад в будущее">
                 <p>Назад в будущее</p>
-            </div>
-            <div class="card">
+            </a>
+            <a class="photo-card" href="https://www.imdb.com/title/tt0083658">
                 <img src="./img/movies/blade-runner.jpg" alt="Бегущий по лезвию">
                 <p>Бегущий по лезвию</p>
-            </div>
-            <div class="card">
+            </a>
+            <a class="photo-card" href="https://www.imdb.com/title/tt0093870">
                 <img src="./img/movies/robocop.jpg" alt="Робокоп">
                 <p>Робокоп</p>
-            </div>
-            <div class="card">
+            </a>
+            <a class="photo-card" href="https://www.imdb.com/title/tt0088247">
                 <img src="./img/movies/terminator.jpg" alt="Терминатор">
                 <p>Терминатор</p>
-            </div>
-            <div class="card">
+            </a>
+            <a class="photo-card" href="https://www.imdb.com/title/tt0084827">
                 <img src="./img/movies/tron.jpg" alt="Трон">
                 <p>Трон</p>
-            </div>
+            </a>
         </div>
     </section>
+    <footer id="footer">
+        <div class="back"></div>
+        <div class="footer-block left">
+            <h4>RadioNurshat(c) 2021.</h4>
+        </div>
+        <div class="footer-block middle">
+            <h4>Соцсети</h4>
+            <a href="https://vk.com/elteray">ВКонтакте</a>
+            <a href="https://instagram.com/radionurshat_">Instagram</a>
+            <a href="https://github.com/RadioNurshat">GitHub</a>
+            <a href="https://t.me/TheFootballBall">Telegram</a>
+        </div>
+        <div class="footer-block right">
 
+            <h4>Дополнительно</h4>
+            <a href="https://github.com/RadioNurshat/kpfu-retrowave">Этот проект на Гитхабе</a>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+    <script>
+        var rellax = new Rellax('.walking-icon');
+    </script>
 </body>
 
 </html>

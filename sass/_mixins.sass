@@ -6,8 +6,9 @@
         left: 0
         right: 0
         bottom: 0
-        background: linear-gradient(rgba(0, 0, 0, $main-back-darken-value), rgba(0, 0, 0, $darken-value)), url($image) no-repeat center center
+        background:  linear-gradient(rgba(0,0,0, $darken-value), rgba(0,0,0, $darken-value)), url($image) no-repeat center center
         background-size: cover
+        image-rendering: crisp-edges
         filter: blur($blur)
 @mixin block-video()
     .back
@@ -57,7 +58,7 @@
     @include retro-font-glow
 
 @mixin section-cards
-    .cards
+    .photo-cards
         margin-top: 30px
         width: 100%
         display: flex
@@ -65,7 +66,9 @@
         align-items: center
         flex-direction: row
         flex-wrap: wrap
-        .card
+        .photo-card
+            text-decoration: none
+            color: white
             margin-bottom: 40px
             margin-right: 30px
             display: flex
@@ -80,4 +83,3 @@
                 box-shadow: 2px 0px 2px rgb(255, 0, 255 / 50%), -2px 0px 2px rgb(0, 255, 191 / 50%), 0px 0px 10px rgb(49, 122, 255)
             h5 
                 @include retro-text    
-

@@ -6,17 +6,20 @@
 $main-font: 'Source Sans Pro', Helvetica, Arial, sans-serif
 $main-back-darken-value: 0.6
 $body-color: #080216
+*
+    box-sizing: border-box
 
     
 html
     overflow-x: hidden
 html, body
-    width: 100%
-    height: 100%
+    min-width: 100vw
+    min-height: 100vh
 body
     background: $body-color
     margin: 0
     box-sizing: border-box
+    position: relative
 
 
 /* width */
@@ -97,9 +100,12 @@ section
         margin-bottom: 2rem
     /*p
         font-size: 2rem
-        
+    
     @import '_retro_font.sass'
     @include block-background($image: '../img/rw2.png', $darken-value: $main-back-darken-value)
+    @media screen and ( max-width: 750px)
+        display: none
+        
 
 
 #introduce
@@ -128,8 +134,19 @@ section
     p
         font-size: 1.1rem
 #footer 
-    display: flex
-    s
+    @include block-definition
+    position: relative
+    justify-content: space-around
+    flex-direction: row
+    align-items: flex-start
+    @include block-background('../img/footer.jpg' , 0.8 ,0 )
+    .footer-block
+        display: flex
+        justify-content: flex-start
+        flex-direction: column
+        a, h4,h5
+            @include retro-text
+            
     
     
         

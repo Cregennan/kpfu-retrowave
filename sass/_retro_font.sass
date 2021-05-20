@@ -20,20 +20,19 @@ h1
     font-size: 7em
   @media screen and ( max-width: 1000px )
     font-size: 6em
+  @media screen and ( max-width: 1000px )
+    &::after
+      display: none
   @media screen and ( max-width: 880px )
     font-size: 5em
   @media screen and ( max-width: 580px )
     font-size: 4em
-  
-  
-  
-  
-  
+
   margin: 0
   transform: skew(-15deg)
   letter-spacing: 0.03em
   
-  &::after 
+  &::after
     content: ''
     position: absolute
     top: -0.1em
