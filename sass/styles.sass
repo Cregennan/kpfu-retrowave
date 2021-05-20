@@ -1,9 +1,10 @@
 @import '_imports.sass'
 @import '_mixins.sass'
 @import '_preloader.sass'
-    
+@import '_retro-walking-icons.sass'
+     
 $main-font: 'Source Sans Pro', Helvetica, Arial, sans-serif
-$main-back-darken-value: 0.8
+$main-back-darken-value: 0.6
 $body-color: #080216
 
     
@@ -40,6 +41,13 @@ body
   background: lighten($body-color,20%)
   transition: .5s
 
+#main-nav
+    transition: 1ss
+    background: rgba(0,0,0,0.5)!important
+    font-weight: 400
+    font-family: $main-font
+    color: #fff
+    text-shadow: 2px 0px 2px rgb(255, 0, 255 / 50%), -2px 0px 2px rgb(0, 255, 191 / 50%), 0px 0px 10px rgb(49, 122, 255)
 
 #audio-suggestion
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./img/suggest.gif') no-repeat center center
@@ -91,14 +99,24 @@ section
         font-size: 2rem
         
     @import '_retro_font.sass'
-    @include block-background($image: './img/retrowave.jpg', $darken-value: $main-back-darken-value)
+    @include block-background($image: '../img/rw2.png', $darken-value: $main-back-darken-value)
 
 
 #introduce
     position: relative
     @include block-definition 
     @include retro-text
-    @include block-background($image: './img/sw-1.jpg', $darken-value: 0.7, $blur: 0px)
+    @include block-background($image: '../img/sw-1.jpg', $darken-value: 0.7, $blur: 0px)
+    
+#myself
+    position: relative
+    @include block-definition
+    @include retro-text
+    @include block-background($image: '../img/wall-3.jpg' , $darken-value: 0.7, $blur: 0px )
+    img
+        width: 400px
+        margin-bottom: 30px
+        box-shadow: 2px 0px 2px rgb(255, 0, 255 / 50%), -2px 0px 2px rgb(0, 255, 191 / 50%), 0px 0px 10px rgb(49, 122, 255)
     
 #video
     background: rgba(0,0,0,0.5)
@@ -109,7 +127,9 @@ section
     @include section-cards
     p
         font-size: 1.1rem
-
+#footer 
+    display: flex
+    s
     
     
         
