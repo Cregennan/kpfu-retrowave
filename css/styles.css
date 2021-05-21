@@ -624,4 +624,10 @@ section {
   letter-spacing: 0;
   text-shadow: 2px 0px 2px #ff0005, -2px 0px 2px #00ff04, 0px 0px 10px #317aff;
 }
+
+@media screen and (max-width: 720) {
+  #footer {
+    flex-direction: column;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
