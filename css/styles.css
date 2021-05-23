@@ -625,9 +625,19 @@ section {
   text-shadow: 2px 0px 2px #ff0005, -2px 0px 2px #00ff04, 0px 0px 10px #317aff;
 }
 
-@media screen and (max-width: 720) {
+@media screen and (max-width: 720px) {
   #footer {
     flex-direction: column;
+  }
+  #footer .left h4, #footer .middle h4, #footer .right h4 {
+    font-size: 1.4rem;
+    margin-bottom: .7rem;
+  }
+  #footer .left {
+    margin-bottom: 20px;
+  }
+  #footer .middle {
+    margin-bottom: 30px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
