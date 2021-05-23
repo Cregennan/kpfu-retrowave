@@ -3,8 +3,7 @@ $(document).ready(function() {
         $("#preloader").addClass('fadeout');
         setTimeout(function() {
             $("#preloader").hide();
-            $(html).removeClass('no-scroll');
+            $('html').removeClass('no-scroll');
         }, 1000)
-
     }, 3000)
 })
