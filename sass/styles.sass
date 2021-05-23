@@ -147,8 +147,16 @@ section
         flex-direction: column
         a, h4,h5
             @include retro-text
-    @media screen and ( max-width: 720 )
-        flex-direction: column   
+    @media screen and ( max-width: 720px)
+        flex-direction: column 
+        .left, .middle, .right
+            h4
+                font-size: 1.4rem
+                margin-bottom: .7rem
+        .left
+            margin-bottom: 20px
+        .middle
+            margin-bottom: 30px  
         
             
     

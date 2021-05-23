@@ -82,27 +82,27 @@
   height: auto;
   opacity: 0.4;
   filter: blur(3px);
-  width: 327px;
-  left: 3vw;
-  top: 66vh;
+  width: 163px;
+  left: 6vw;
+  top: 27vh;
 }
 
 .walking-icon#walker-2 {
   height: auto;
   opacity: 0.4;
   filter: blur(3px);
-  width: 160px;
-  left: 36.33333vw;
-  top: 128vh;
+  width: 223px;
+  left: 40.33333vw;
+  top: 185vh;
 }
 
 .walking-icon#walker-3 {
   height: auto;
   opacity: 0.4;
   filter: blur(3px);
-  width: 342px;
-  left: 71.66667vw;
-  top: 110vh;
+  width: 246px;
+  left: 73.66667vw;
+  top: 34vh;
 }
 
 * {
@@ -642,9 +642,19 @@ section {
   text-shadow: 2px 0px 2px #ff0005, -2px 0px 2px #00ff04, 0px 0px 10px #317aff;
 }
 
-@media screen and (max-width: 720) {
+@media screen and (max-width: 720px) {
   #footer {
     flex-direction: column;
+  }
+  #footer .left h4, #footer .middle h4, #footer .right h4 {
+    font-size: 1.4rem;
+    margin-bottom: .7rem;
+  }
+  #footer .left {
+    margin-bottom: 20px;
+  }
+  #footer .middle {
+    margin-bottom: 30px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
