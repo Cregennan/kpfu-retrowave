@@ -1,11 +1,10 @@
 $(document).ready(function() {
     setTimeout(function() {
-        //$("#preloader").addClass('fadeout');
-        //$("#preloader").hide();
-        //$(html).removeClass('no-scroll');
+        $("#preloader").addClass('fadeout');
+        setTimeout(function() {
+            $("#preloader").hide();
+            $(html).removeClass('no-scroll');
+        }, 1000)
 
-
-
-    }, 4000)
-
+    }, 3000)
 })
