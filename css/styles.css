@@ -61,29 +61,47 @@
 
 .walking-icon#walker-1 {
   height: auto;
-  opacity: 0.4;
-  filter: blur(3px);
-  width: 163px;
-  left: 6vw;
-  top: 27vh;
+  opacity: 0.5;
+  filter: blur(2px);
+  width: 308px;
+  left: 1vw;
+  top: 165vh;
 }
 
 .walking-icon#walker-2 {
   height: auto;
-  opacity: 0.4;
-  filter: blur(3px);
-  width: 223px;
-  left: 40.33333vw;
-  top: 185vh;
+  opacity: 0.5;
+  filter: blur(2px);
+  width: 310px;
+  left: 29vw;
+  top: 197vh;
 }
 
 .walking-icon#walker-3 {
   height: auto;
-  opacity: 0.4;
-  filter: blur(3px);
-  width: 246px;
-  left: 73.66667vw;
-  top: 34vh;
+  opacity: 0.5;
+  filter: blur(2px);
+  width: 279px;
+  left: 46vw;
+  top: 101vh;
+}
+
+.walking-icon#walker-4 {
+  height: auto;
+  opacity: 0.5;
+  filter: blur(2px);
+  width: 339px;
+  left: 62vw;
+  top: 15vh;
+}
+
+.walking-icon#walker-5 {
+  height: auto;
+  opacity: 0.5;
+  filter: blur(2px);
+  width: 279px;
+  left: 89vw;
+  top: 196vh;
 }
 
 * {

@@ -1,12 +1,12 @@
 .walking-icon
     position: absolute
     z-index: 90
-    $count: 3
+    $count: 5  
     @for $i from 1 through $count
         &#walker-#{$i}
             height: auto
-            opacity: 0.4
-            filter: blur(3px)
+            opacity: 0.5
+            filter: blur(2px)
             $width: random(200) + 150
             width: $width + px
             left: (100/$count)* ($i - 1) + random(10) + vw
