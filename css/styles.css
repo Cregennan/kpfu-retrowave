@@ -63,14 +63,14 @@
   height: auto;
   opacity: 0.5;
   filter: blur(2px);
-  width: 194px;
-  left: 5vw;
-  top: 177vh;
+  width: 192px;
+  left: 1vw;
+  top: 172vh;
 }
 
 @media screen and (max-width: 700px) {
   .walking-icon#walker-1 {
-    top: 231vh;
+    top: 73vh;
   }
 }
 
@@ -78,14 +78,14 @@
   height: auto;
   opacity: 0.5;
   filter: blur(2px);
-  width: 169px;
-  left: 28vw;
-  top: 180vh;
+  width: 183px;
+  left: 21vw;
+  top: 190vh;
 }
 
 @media screen and (max-width: 700px) {
   .walking-icon#walker-2 {
-    top: 285vh;
+    top: 387vh;
   }
 }
 
@@ -93,14 +93,14 @@
   height: auto;
   opacity: 0.5;
   filter: blur(2px);
-  width: 129px;
-  left: 49vw;
-  top: 191vh;
+  width: 152px;
+  left: 47vw;
+  top: 40vh;
 }
 
 @media screen and (max-width: 700px) {
   .walking-icon#walker-3 {
-    top: 85vh;
+    top: 351vh;
   }
 }
 
@@ -108,14 +108,14 @@
   height: auto;
   opacity: 0.5;
   filter: blur(2px);
-  width: 144px;
-  left: 64vw;
-  top: 8vh;
+  width: 196px;
+  left: 69vw;
+  top: 32vh;
 }
 
 @media screen and (max-width: 700px) {
   .walking-icon#walker-4 {
-    top: 183vh;
+    top: 28vh;
   }
 }
 
@@ -123,14 +123,14 @@
   height: auto;
   opacity: 0.5;
   filter: blur(2px);
-  width: 200px;
-  left: 90vw;
-  top: 170vh;
+  width: 121px;
+  left: 82vw;
+  top: 89vh;
 }
 
 @media screen and (max-width: 700px) {
   .walking-icon#walker-5 {
-    top: 184vh;
+    top: 2vh;
   }
 }
 
@@ -395,7 +395,7 @@ section {
   color: #fff;
   line-height: 1.2;
   letter-spacing: 0;
-  text-shadow: 2px 0px 2px #ff0005, -2px 0px 2px #00ff04, 0px 0px 10px #317aff;
+  text-shadow: 2px 0px 2px #050005, -2px 0px 2px #000604, 0px 0px 10px #317aff;
 }
 
 #audio-suggestion h1, #audio-suggestion h2, #audio-suggestion p {
@@ -423,7 +423,7 @@ section {
   color: #fff;
   line-height: 1.2;
   letter-spacing: 0;
-  text-shadow: 2px 0px 2px #ff0005, -2px 0px 2px #00ff04, 0px 0px 10px #317aff;
+  text-shadow: 2px 0px 2px #050005, -2px 0px 2px #000604, 0px 0px 10px #317aff;
   background: none;
   padding: 15px;
   border-style: solid;
@@ -452,7 +452,7 @@ section {
   color: #fff;
   line-height: 1.2;
   letter-spacing: 0;
-  text-shadow: 2px 0px 2px #ff0005, -2px 0px 2px #00ff04, 0px 0px 10px #317aff;
+  text-shadow: 2px 0px 2px #050005, -2px 0px 2px #000604, 0px 0px 10px #317aff;
   box-shadow: 0px -21px 34px 3px rgba(0, 0, 0, 0.7) inset;
 }
 
@@ -504,7 +504,7 @@ section {
   color: #fff;
   line-height: 1.2;
   letter-spacing: 0;
-  text-shadow: 2px 0px 2px #ff0005, -2px 0px 2px #00ff04, 0px 0px 10px #317aff;
+  text-shadow: 2px 0px 2px #050005, -2px 0px 2px #000604, 0px 0px 10px #317aff;
   box-shadow: 0px -21px 34px 3px rgba(0, 0, 0, 0.7) inset;
 }
 
@@ -569,7 +569,7 @@ section {
   color: #fff;
   line-height: 1.2;
   letter-spacing: 0;
-  text-shadow: 2px 0px 2px #ff0005, -2px 0px 2px #00ff04, 0px 0px 10px #317aff;
+  text-shadow: 2px 0px 2px #050005, -2px 0px 2px #000604, 0px 0px 10px #317aff;
 }
 
 #video h3, #video h4, #video p {
@@ -642,7 +642,7 @@ section {
   color: #fff;
   line-height: 1.2;
   letter-spacing: 0;
-  text-shadow: 2px 0px 2px #ff0005, -2px 0px 2px #00ff04, 0px 0px 10px #317aff;
+  text-shadow: 2px 0px 2px #050005, -2px 0px 2px #000604, 0px 0px 10px #317aff;
 }
 
 @media screen and (max-width: 598px) {
@@ -670,7 +670,7 @@ section {
   color: #fff;
   line-height: 1.2;
   letter-spacing: 0;
-  text-shadow: 2px 0px 2px #ff0005, -2px 0px 2px #00ff04, 0px 0px 10px #317aff;
+  text-shadow: 2px 0px 2px #050005, -2px 0px 2px #000604, 0px 0px 10px #317aff;
   box-shadow: 0px -21px 34px 3px rgba(0, 0, 0, 0.7) inset;
 }
 
@@ -729,7 +729,7 @@ section {
   color: #fff;
   line-height: 1.2;
   letter-spacing: 0;
-  text-shadow: 2px 0px 2px #ff0005, -2px 0px 2px #00ff04, 0px 0px 10px #317aff;
+  text-shadow: 2px 0px 2px #050005, -2px 0px 2px #000604, 0px 0px 10px #317aff;
 }
 
 @media screen and (max-width: 598px) {
@@ -812,7 +812,7 @@ section {
   color: #fff;
   line-height: 1.2;
   letter-spacing: 0;
-  text-shadow: 2px 0px 2px #ff0005, -2px 0px 2px #00ff04, 0px 0px 10px #317aff;
+  text-shadow: 2px 0px 2px #050005, -2px 0px 2px #000604, 0px 0px 10px #317aff;
 }
 
 @media screen and (max-width: 720px) {

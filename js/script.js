@@ -7,6 +7,7 @@ $(document).ready(function() {
         }, 1000)
     }, 3000)
 })
+window.scrollTo(0, 0);
 
 const audio_open = () => {
     $('html').addClass('no-scroll');
