@@ -13,19 +13,34 @@ const audio_open = () => {
     $("#audio-suggestion").show();
 }
 const audio_close = () => {
-    $("#audio-suggestion").hide();
-    $('html').removeClass('no-scroll');
+    $("#audio-suggestion").addClass('fadeout');
+    setTimeout(function() {
+        $("#audio-suggestion").hide();
+        $('html').removeClass('no-scroll');
+    }, 800)
+
 }
 
-var audio = new Audio('./audio/white_night1.mp3');
-
+var audio = new Audio('./audio/music1.mp3');
+audio.loop = true;
 setTimeout(function() {
-    audio_open();
+    if (localStorage.getItem('play_allowed') != 'false') {
+        audio_open();
+    }
 }, 1000)
 
 $(document).on('click', "#turn_on_music", function() {
+    $("#audio-suggestion").addClass('fadeout');
     audio.play();
+    audio_close();
+
 })
 $(document).on('click', "#turn_off_music", function() {
     audio.pause();
+    audio_close();
+})
+$(document).on('click', "#do_not_ask", function() {
+    localStorage.setItem('play_allowed', 'false');
+    audio.pause();
+    audio_close();
 })
