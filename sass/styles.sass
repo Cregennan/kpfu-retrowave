@@ -22,7 +22,13 @@ body
     margin: 0
     box-sizing: border-box
     position: relative
-
+#global_wrapper
+    position: absolute
+    top: 0
+    left: 0
+    width: 100vw
+    min-height: 100vh
+    overflow-x: hidden
 
 /* width */
 ::-webkit-scrollbar 
@@ -100,7 +106,10 @@ section
         width: 400px
         margin-bottom: 30px
         box-shadow: 2px 0px 2px rgb(255, 0, 255 / 50%), -2px 0px 2px rgb(0, 255, 191 / 50%), 0px 0px 10px rgb(49, 122, 255)
-    
+        @media screen and ( max-width: 420px )
+            width: 130%
+            
+
 #video
     background: rgba(0,0,0,0.5)
     position: relative
@@ -167,7 +176,10 @@ section
         
 #walker-4, #walker-5
     display: none
-    
+#walker-3
+    @media screen and ( max-width: 420px  )
+        display: none
+        
 
         
 

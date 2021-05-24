@@ -63,14 +63,14 @@
   height: auto;
   opacity: 0.5;
   filter: blur(2px);
-  width: 187px;
-  left: 8vw;
-  top: 30vh;
+  width: 194px;
+  left: 5vw;
+  top: 177vh;
 }
 
 @media screen and (max-width: 700px) {
   .walking-icon#walker-1 {
-    top: 181vh;
+    top: 231vh;
   }
 }
 
@@ -78,14 +78,14 @@
   height: auto;
   opacity: 0.5;
   filter: blur(2px);
-  width: 144px;
-  left: 25vw;
-  top: 150vh;
+  width: 169px;
+  left: 28vw;
+  top: 180vh;
 }
 
 @media screen and (max-width: 700px) {
   .walking-icon#walker-2 {
-    top: 46vh;
+    top: 285vh;
   }
 }
 
@@ -93,14 +93,14 @@
   height: auto;
   opacity: 0.5;
   filter: blur(2px);
-  width: 141px;
-  left: 47vw;
-  top: 65vh;
+  width: 129px;
+  left: 49vw;
+  top: 191vh;
 }
 
 @media screen and (max-width: 700px) {
   .walking-icon#walker-3 {
-    top: 228vh;
+    top: 85vh;
   }
 }
 
@@ -108,14 +108,14 @@
   height: auto;
   opacity: 0.5;
   filter: blur(2px);
-  width: 185px;
-  left: 69vw;
-  top: 118vh;
+  width: 144px;
+  left: 64vw;
+  top: 8vh;
 }
 
 @media screen and (max-width: 700px) {
   .walking-icon#walker-4 {
-    top: 378vh;
+    top: 183vh;
   }
 }
 
@@ -123,14 +123,14 @@
   height: auto;
   opacity: 0.5;
   filter: blur(2px);
-  width: 194px;
-  left: 84vw;
-  top: 189vh;
+  width: 200px;
+  left: 90vw;
+  top: 170vh;
 }
 
 @media screen and (max-width: 700px) {
   .walking-icon#walker-5 {
-    top: 40vh;
+    top: 184vh;
   }
 }
 
@@ -156,6 +156,15 @@ body {
   margin: 0;
   box-sizing: border-box;
   position: relative;
+}
+
+#global_wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 
 /* width */
@@ -538,6 +547,12 @@ section {
   box-shadow: 2px 0px 2px #ff0005, -2px 0px 2px #00ff04, 0px 0px 10px #317aff;
 }
 
+@media screen and (max-width: 420px) {
+  #myself img {
+    width: 130%;
+  }
+}
+
 #video {
   background: rgba(0, 0, 0, 0.5);
   position: relative;
@@ -630,6 +645,12 @@ section {
   text-shadow: 2px 0px 2px #ff0005, -2px 0px 2px #00ff04, 0px 0px 10px #317aff;
 }
 
+@media screen and (max-width: 598px) {
+  #video .photo-cards .photo-card {
+    margin-right: 0;
+  }
+}
+
 #video p {
   font-size: 1.1rem;
 }
@@ -709,6 +730,12 @@ section {
   line-height: 1.2;
   letter-spacing: 0;
   text-shadow: 2px 0px 2px #ff0005, -2px 0px 2px #00ff04, 0px 0px 10px #317aff;
+}
+
+@media screen and (max-width: 598px) {
+  #my-fave-games .photo-cards .photo-card {
+    margin-right: 0;
+  }
 }
 
 #my-fave-games .back {
@@ -836,5 +863,11 @@ section {
 
 #walker-4, #walker-5 {
   display: none;
+}
+
+@media screen and (max-width: 420px) {
+  #walker-3 {
+    display: none;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
