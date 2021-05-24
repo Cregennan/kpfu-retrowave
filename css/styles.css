@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap");
@@ -63,14 +62,14 @@
   height: auto;
   opacity: 0.5;
   filter: blur(2px);
-  width: 192px;
-  left: 1vw;
-  top: 172vh;
+  width: 144px;
+  left: 3vw;
+  top: 98vh;
 }
 
 @media screen and (max-width: 700px) {
   .walking-icon#walker-1 {
-    top: 73vh;
+    top: 352vh;
   }
 }
 
@@ -78,14 +77,14 @@
   height: auto;
   opacity: 0.5;
   filter: blur(2px);
-  width: 183px;
-  left: 21vw;
-  top: 190vh;
+  width: 101px;
+  left: 26vw;
+  top: 174vh;
 }
 
 @media screen and (max-width: 700px) {
   .walking-icon#walker-2 {
-    top: 387vh;
+    top: 269vh;
   }
 }
 
@@ -93,14 +92,14 @@
   height: auto;
   opacity: 0.5;
   filter: blur(2px);
-  width: 152px;
-  left: 47vw;
-  top: 40vh;
+  width: 172px;
+  left: 43vw;
+  top: 139vh;
 }
 
 @media screen and (max-width: 700px) {
   .walking-icon#walker-3 {
-    top: 351vh;
+    top: 197vh;
   }
 }
 
@@ -108,14 +107,14 @@
   height: auto;
   opacity: 0.5;
   filter: blur(2px);
-  width: 196px;
-  left: 69vw;
-  top: 32vh;
+  width: 136px;
+  left: 61vw;
+  top: 65vh;
 }
 
 @media screen and (max-width: 700px) {
   .walking-icon#walker-4 {
-    top: 28vh;
+    top: 305vh;
   }
 }
 
@@ -123,14 +122,14 @@
   height: auto;
   opacity: 0.5;
   filter: blur(2px);
-  width: 121px;
+  width: 171px;
   left: 82vw;
-  top: 89vh;
+  top: 57vh;
 }
 
 @media screen and (max-width: 700px) {
   .walking-icon#walker-5 {
-    top: 2vh;
+    top: 86vh;
   }
 }
 
@@ -463,12 +462,13 @@ section {
 #introduce h3 {
   font-size: 3.2rem;
   margin-bottom: .5rem;
+  font-weight: 600;
 }
 
 #introduce h4 {
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 #introduce p {
@@ -515,12 +515,13 @@ section {
 #myself h3 {
   font-size: 3.2rem;
   margin-bottom: .5rem;
+  font-weight: 600;
 }
 
 #myself h4 {
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 #myself p {
@@ -579,12 +580,13 @@ section {
 #video h3 {
   font-size: 3.2rem;
   margin-bottom: .5rem;
+  font-weight: 600;
 }
 
 #video h4 {
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 #video p {
@@ -681,12 +683,13 @@ section {
 #my-fave-games h3 {
   font-size: 3.2rem;
   margin-bottom: .5rem;
+  font-weight: 600;
 }
 
 #my-fave-games h4 {
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 #my-fave-games p {
@@ -774,12 +777,13 @@ section {
 #footer h3 {
   font-size: 3.2rem;
   margin-bottom: .5rem;
+  font-weight: 600;
 }
 
 #footer h4 {
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 #footer p {
@@ -869,5 +873,24 @@ section {
   #walker-3 {
     display: none;
   }
+}
+
+#music_button {
+  z-index: 20;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  padding: 15px;
+  border-style: solid;
+  border-color: #fff;
+  border-width: 1px;
+  box-shadow: 0px 0px 3px 1px white, 0px 0px 3px 1px white inset;
+  border-radius: 30px;
+}
+
+#music_button:hover {
+  box-shadow: 0px 0px 4px 2px white, 0px 0px 4px 2px white inset;
 }
 /*# sourceMappingURL=styles.css.map */
