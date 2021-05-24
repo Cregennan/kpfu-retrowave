@@ -27,7 +27,7 @@ setTimeout(function() {
     if (localStorage.getItem('play_allowed') != 'false') {
         audio_open();
     }
-}, 1000)
+}, 10000)
 
 $(document).on('click', "#turn_on_music", function() {
     $("#audio-suggestion").addClass('fadeout');

@@ -63,45 +63,45 @@
   height: auto;
   opacity: 0.5;
   filter: blur(2px);
-  width: 227px;
-  left: 10vw;
-  top: 53vh;
+  width: 291px;
+  left: 6vw;
+  top: 141vh;
 }
 
 .walking-icon#walker-2 {
   height: auto;
   opacity: 0.5;
   filter: blur(2px);
-  width: 188px;
-  left: 30vw;
-  top: 19vh;
+  width: 336px;
+  left: 29vw;
+  top: 8vh;
 }
 
 .walking-icon#walker-3 {
   height: auto;
   opacity: 0.5;
   filter: blur(2px);
-  width: 307px;
+  width: 172px;
   left: 44vw;
-  top: 124vh;
+  top: 5vh;
 }
 
 .walking-icon#walker-4 {
   height: auto;
   opacity: 0.5;
   filter: blur(2px);
-  width: 151px;
-  left: 65vw;
-  top: 168vh;
+  width: 172px;
+  left: 66vw;
+  top: 156vh;
 }
 
 .walking-icon#walker-5 {
   height: auto;
   opacity: 0.5;
   filter: blur(2px);
-  width: 299px;
-  left: 87vw;
-  top: 15vh;
+  width: 256px;
+  left: 90vw;
+  top: 6vh;
 }
 
 * {
