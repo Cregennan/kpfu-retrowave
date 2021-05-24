@@ -25,7 +25,7 @@ var audio = new Audio('./audio/music1.mp3');
 audio.loop = true;
 setTimeout(function() {
     if (localStorage.getItem('play_allowed') != 'false') {
-        audio_open();
+        //audio_open();
     }
 }, 10000)
 
@@ -33,7 +33,6 @@ $(document).on('click', "#turn_on_music", function() {
     $("#audio-suggestion").addClass('fadeout');
     audio.play();
     audio_close();
-
 })
 $(document).on('click', "#turn_off_music", function() {
     audio.pause();

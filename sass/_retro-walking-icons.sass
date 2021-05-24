@@ -7,8 +7,11 @@
             height: auto
             opacity: 0.5
             filter: blur(2px)
-            $width: random(200) + 150
+            $width: random(100) + 100
             width: $width + px
             left: (100/$count)* ($i - 1) + random(10) + vw
             top: random(200) + vh
+            @media screen and ( max-width: 700px )
+                top: random(400) + vh
+
     
