@@ -2,6 +2,7 @@
 @import '_mixins.sass'
 @import '_preloader.sass'
 @import '_retro-walking-icons.sass'
+
      
 $main-font: 'Source Sans Pro', Helvetica, Arial, sans-serif
 $main-back-darken-value: 0.6
@@ -53,32 +54,7 @@ body
     color: #fff
     text-shadow: 2px 0px 2px rgb(255, 0, 255 / 50%), -2px 0px 2px rgb(0, 255, 191 / 50%), 0px 0px 10px rgb(49, 122, 255)
 
-#audio-suggestion
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./img/suggest.gif') no-repeat center center
-    background-size: cover
-    position: absolute
-    top: 0
-    bottom: 0
-    left: 0
-    right: 0
-    z-index: 9999
-    display: flex
-    justify-content: center
-    align-items: center
-    flex-direction: column
-    display: none
-    @include retro-text
-    h1, h2, p
-        margin: 0
-    h1
-        margin-bottom: .4rem
-        font-size: 3rem
-    h2
-        font-size: 2rem
-        margin-bottom: 1rem
-    .buttons
-        margin-top: 80px
-         
+
 section 
     font-family: $main-font
 #landing
@@ -107,7 +83,7 @@ section
     @media screen and ( max-width: 750px)
         display: none
         
-
+@import '_retroplayer.sass'
 
 #introduce
     position: relative
