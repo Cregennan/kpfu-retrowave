@@ -110,6 +110,13 @@ section
     @include section-cards
     p
         font-size: 1.1rem
+#my-fave-games
+    position: relative
+    @include block-definition
+    @include retro-text
+    @include section-cards
+    @include block-background($image: '../img/flare.jpg', $darken-value: 0.9, $blur: 2px)
+    
 #footer 
     @include block-definition
     position: relative
@@ -133,7 +140,32 @@ section
             margin-bottom: 20px
         .middle
             margin-bottom: 30px 
+
+.mega-flex
+    .back
+        display: none
+    .walking-icons
+        display: none
+    body
+        $darken-value: 0.7
+        $image: "../img/wall-3.jpg"
+        background-size: cover
+        background:  linear-gradient(rgba(0,0,0, $darken-value), rgba(0,0,0, $darken-value)), url($image) no-repeat center center
+    a,h2,h3,p,h4,h5
+        animation-name: mega_flex!important
+        animation-direction: normal!important
+        animation-duration: .5s!important
+        animation-timing-function: ease!important
+        animation-iteration-count: infinite
+    
+    @keyframes mega_flex
+        from
+            text-shadow: 2px 0px 2px rgb(255, 0, 255 / 50%), -2px 0px 2px rgb(0, 255, 191 / 50%), 0px 0px 10px rgb(49, 122, 255)
         
+        to
+            text-shadow: 5px 0px 5px rgb(255, 0, 255 / 50%), -5px 0px 5px rgb(0, 255, 191 / 50%), 0px 0px 20px rgb(49, 122, 255)
+        
+    
             
     
     
