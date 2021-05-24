@@ -24,11 +24,27 @@ const audio_close = () => {
 
 var audio = new Audio('./audio/music1.mp3');
 audio.loop = true;
-setTimeout(function() {
-    if (localStorage.getItem('play_allowed') != 'false') {
-        //audio_open();
+var audio_playing = false;
+$(document).on('click', '#music_button', function() {
+    if (audio_playing) {
+        $("#music_button i").removeClass('fa-pause');
+        $("#music_button i").addClass('fa-play');
+        audio_playing = false;
+        console.info("Audio Pauses")
+        audio.pause();
+    } else {
+        $("#music_button i").removeClass('fa-play');
+        $("#music_button i").addClass('fa-pause');
+        audio_playing = true;
+        console.info("Audio Plays")
+        audio.play();
     }
-}, 10000)
+})
+
+
+
+
+
 
 $(document).on('click', "#turn_on_music", function() {
     $("#audio-suggestion").addClass('fadeout');

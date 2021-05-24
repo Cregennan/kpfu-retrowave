@@ -62,14 +62,14 @@
   height: auto;
   opacity: 0.5;
   filter: blur(2px);
-  width: 144px;
+  width: 146px;
   left: 3vw;
-  top: 98vh;
+  top: 93vh;
 }
 
 @media screen and (max-width: 700px) {
   .walking-icon#walker-1 {
-    top: 352vh;
+    top: 325vh;
   }
 }
 
@@ -77,14 +77,14 @@
   height: auto;
   opacity: 0.5;
   filter: blur(2px);
-  width: 101px;
-  left: 26vw;
-  top: 174vh;
+  width: 183px;
+  left: 27vw;
+  top: 152vh;
 }
 
 @media screen and (max-width: 700px) {
   .walking-icon#walker-2 {
-    top: 269vh;
+    top: 279vh;
   }
 }
 
@@ -92,14 +92,14 @@
   height: auto;
   opacity: 0.5;
   filter: blur(2px);
-  width: 172px;
-  left: 43vw;
-  top: 139vh;
+  width: 178px;
+  left: 42vw;
+  top: 134vh;
 }
 
 @media screen and (max-width: 700px) {
   .walking-icon#walker-3 {
-    top: 197vh;
+    top: 363vh;
   }
 }
 
@@ -107,14 +107,14 @@
   height: auto;
   opacity: 0.5;
   filter: blur(2px);
-  width: 136px;
-  left: 61vw;
-  top: 65vh;
+  width: 166px;
+  left: 68vw;
+  top: 56vh;
 }
 
 @media screen and (max-width: 700px) {
   .walking-icon#walker-4 {
-    top: 305vh;
+    top: 202vh;
   }
 }
 
@@ -122,14 +122,14 @@
   height: auto;
   opacity: 0.5;
   filter: blur(2px);
-  width: 171px;
-  left: 82vw;
-  top: 57vh;
+  width: 124px;
+  left: 86vw;
+  top: 114vh;
 }
 
 @media screen and (max-width: 700px) {
   .walking-icon#walker-5 {
-    top: 86vh;
+    top: 211vh;
   }
 }
 
@@ -791,6 +791,10 @@ section {
   font-weight: 400;
 }
 
+#footer a {
+  text-decoration: none;
+}
+
 #footer .back {
   z-index: -1;
   position: absolute;
@@ -883,6 +887,11 @@ section {
   width: 60px;
   height: 60px;
   padding: 15px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
   border-style: solid;
   border-color: #fff;
   border-width: 1px;
@@ -890,7 +899,15 @@ section {
   border-radius: 30px;
 }
 
+#music_button i {
+  text-shadow: 0px 0px 5px white;
+}
+
 #music_button:hover {
   box-shadow: 0px 0px 4px 2px white, 0px 0px 4px 2px white inset;
+}
+
+#music_button:hover i {
+  text-shadow: 0px 0px 8px white;
 }
 /*# sourceMappingURL=styles.css.map */
